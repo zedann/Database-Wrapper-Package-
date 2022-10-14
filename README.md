@@ -22,8 +22,7 @@ $db = new DbWrapper();
 
 ```php
 /* connect to database */
-$db->connect('pdo', 'mysql', '127.0.0.1', 'username', 'password', 'database', 3306);
-$db = new DbWrapper('127.0.0.1', 'username', 'password', 'database', 3306);
+$db = new DbWrapper('localhost', 'username', 'password', 'database', 3306);
 
 
 /* insert/update/delete */
