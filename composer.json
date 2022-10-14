@@ -1,0 +1,16 @@
+{
+    "name": "zedan/database-package",
+    "description": "php wrapper for mysql db",
+    "autoload": {
+        "psr-4": {
+            "Zedan\\DatabasePackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "zedann",
+            "email": "zedamohamed144@gmail.com"
+        }
+    ],
+    "require": {}
+}
